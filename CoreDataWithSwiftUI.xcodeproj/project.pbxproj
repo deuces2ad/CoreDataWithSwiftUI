@@ -11,6 +11,16 @@
 		991CBE2E286D8BFB00D96168 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE2D286D8BFB00D96168 /* ContentView.swift */; };
 		991CBE30286D8BFD00D96168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991CBE2F286D8BFD00D96168 /* Assets.xcassets */; };
 		991CBE33286D8BFD00D96168 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991CBE32286D8BFD00D96168 /* Preview Assets.xcassets */; };
+		991CBE3F286D8D1E00D96168 /* PersistantStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE3E286D8D1E00D96168 /* PersistantStorage.swift */; };
+		991CBE42286D8D9600D96168 /* AppInfoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE41286D8D9600D96168 /* AppInfoConfig.swift */; };
+		991CBE45286D8E7400D96168 /* UniversityDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE43286D8E7400D96168 /* UniversityDataModel.xcdatamodeld */; };
+		991CBE4A286D933800D96168 /* DevFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE49286D933800D96168 /* DevFlag.swift */; };
+		991CBE4C286D935C00D96168 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE4B286D935C00D96168 /* Log.swift */; };
+		991CBE4E286D9A4F00D96168 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE4D286D9A4F00D96168 /* DashboardView.swift */; };
+		991CBE52286D9C7100D96168 /* CourseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE51286D9C7100D96168 /* CourseItemView.swift */; };
+		991CBE57286DAB7400D96168 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE56286DAB7400D96168 /* Course.swift */; };
+		991CBE59286DABD300D96168 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE58286DABD300D96168 /* DashboardViewModel.swift */; };
+		991CBE5C286DB0B000D96168 /* NewCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CBE5B286DB0AF00D96168 /* NewCourseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		991CBE2D286D8BFB00D96168 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		991CBE2F286D8BFD00D96168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991CBE32286D8BFD00D96168 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		991CBE3E286D8D1E00D96168 /* PersistantStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantStorage.swift; sourceTree = "<group>"; };
+		991CBE41286D8D9600D96168 /* AppInfoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoConfig.swift; sourceTree = "<group>"; };
+		991CBE44286D8E7400D96168 /* LanguageDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LanguageDataModel.xcdatamodel; sourceTree = "<group>"; };
+		991CBE49286D933800D96168 /* DevFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevFlag.swift; sourceTree = "<group>"; };
+		991CBE4B286D935C00D96168 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		991CBE4D286D9A4F00D96168 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		991CBE51286D9C7100D96168 /* CourseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItemView.swift; sourceTree = "<group>"; };
+		991CBE56286DAB7400D96168 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		991CBE58286DABD300D96168 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		991CBE5B286DB0AF00D96168 /* NewCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCourseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,14 @@
 		991CBE2A286D8BFB00D96168 /* CoreDataWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				991CBE2B286D8BFB00D96168 /* CoreDataWithSwiftUIApp.swift */,
-				991CBE2D286D8BFB00D96168 /* ContentView.swift */,
+				991CBE55286DAB5C00D96168 /* Model */,
+				991CBE3D286D8CAF00D96168 /* AppDelegate */,
+				991CBE39286D8C2200D96168 /* View */,
+				991CBE53286DAB3100D96168 /* ViewModel */,
+				991CBE3C286D8C4A00D96168 /* CoreDataFiles */,
+				991CBE40286D8D8200D96168 /* AppInfoConfig */,
+				991CBE47286D931D00D96168 /* Utils */,
+				991CBE43286D8E7400D96168 /* UniversityDataModel.xcdatamodeld */,
 				991CBE2F286D8BFD00D96168 /* Assets.xcassets */,
 				991CBE31286D8BFD00D96168 /* Preview Content */,
 			);
@@ -65,6 +91,98 @@
 				991CBE32286D8BFD00D96168 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		991CBE39286D8C2200D96168 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE2D286D8BFB00D96168 /* ContentView.swift */,
+				991CBE5A286DB06A00D96168 /* NewCourseView */,
+				991CBE4F286D9C3200D96168 /* DashboardView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		991CBE3C286D8C4A00D96168 /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE3E286D8D1E00D96168 /* PersistantStorage.swift */,
+			);
+			path = CoreDataFiles;
+			sourceTree = "<group>";
+		};
+		991CBE3D286D8CAF00D96168 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE2B286D8BFB00D96168 /* CoreDataWithSwiftUIApp.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		991CBE40286D8D8200D96168 /* AppInfoConfig */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE41286D8D9600D96168 /* AppInfoConfig.swift */,
+			);
+			path = AppInfoConfig;
+			sourceTree = "<group>";
+		};
+		991CBE47286D931D00D96168 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE48286D932300D96168 /* Debug */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		991CBE48286D932300D96168 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE49286D933800D96168 /* DevFlag.swift */,
+				991CBE4B286D935C00D96168 /* Log.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		991CBE4F286D9C3200D96168 /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE4D286D9A4F00D96168 /* DashboardView.swift */,
+				991CBE50286D9C4700D96168 /* SupportingView */,
+			);
+			path = DashboardView;
+			sourceTree = "<group>";
+		};
+		991CBE50286D9C4700D96168 /* SupportingView */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE51286D9C7100D96168 /* CourseItemView.swift */,
+			);
+			path = SupportingView;
+			sourceTree = "<group>";
+		};
+		991CBE53286DAB3100D96168 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE58286DABD300D96168 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		991CBE55286DAB5C00D96168 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE56286DAB7400D96168 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		991CBE5A286DB06A00D96168 /* NewCourseView */ = {
+			isa = PBXGroup;
+			children = (
+				991CBE5B286DB0AF00D96168 /* NewCourseView.swift */,
+			);
+			path = NewCourseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +255,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991CBE5C286DB0B000D96168 /* NewCourseView.swift in Sources */,
+				991CBE3F286D8D1E00D96168 /* PersistantStorage.swift in Sources */,
+				991CBE4E286D9A4F00D96168 /* DashboardView.swift in Sources */,
+				991CBE57286DAB7400D96168 /* Course.swift in Sources */,
+				991CBE4C286D935C00D96168 /* Log.swift in Sources */,
+				991CBE59286DABD300D96168 /* DashboardViewModel.swift in Sources */,
+				991CBE45286D8E7400D96168 /* UniversityDataModel.xcdatamodeld in Sources */,
+				991CBE42286D8D9600D96168 /* AppInfoConfig.swift in Sources */,
+				991CBE4A286D933800D96168 /* DevFlag.swift in Sources */,
 				991CBE2E286D8BFB00D96168 /* ContentView.swift in Sources */,
 				991CBE2C286D8BFB00D96168 /* CoreDataWithSwiftUIApp.swift in Sources */,
+				991CBE52286D9C7100D96168 /* CourseItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +469,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		991CBE43286D8E7400D96168 /* UniversityDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				991CBE44286D8E7400D96168 /* LanguageDataModel.xcdatamodel */,
+			);
+			currentVersion = 991CBE44286D8E7400D96168 /* LanguageDataModel.xcdatamodel */;
+			path = UniversityDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 991CBE20286D8BFB00D96168 /* Project object */;
 }

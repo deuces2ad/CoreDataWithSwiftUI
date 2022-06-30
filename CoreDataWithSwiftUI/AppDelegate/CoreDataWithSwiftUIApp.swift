@@ -11,7 +11,9 @@ import SwiftUI
 struct CoreDataWithSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
+            
             ContentView()
+                .environment(\.managedObjectContext, PersistantStorage().persistentContainer.viewContext)
         }
     }
 }
